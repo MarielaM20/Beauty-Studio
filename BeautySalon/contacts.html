@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Контакти</title>
+	<link rel="stylesheet" type="text/css" href="fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/c345dd1c65.js" crossorigin="anonymous"></script>
+	<script src="jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="contacts.css">
+</head>
+<body>
+
+	<header>
+
+		<div class="menu-header">
+			<i class="fa fa-bars"></i>
+		</div>
+		
+		<div class="menu-content">
+
+			<nav>
+				<ul>
+					<li class="menu-img"><a href="index.html"><img src="logo1.png" alt="logo"></a></li>
+					<li class="menu"><a href="#" class="dropbtn">Услуги <i class="fa fa-chevron-down"></i></a>
+						<ul class="dropdown">
+							<li><a href="manicure.html">Маникюр</a></li>
+		       				<li><a href="makeup.html">Грим</a></li>
+		       				<li><a href="#" class="dropbtn2">Фризьорство <i class="fa fa-chevron-right right"></i><i class="fa fa-chevron-down down"></i></a>
+		       					<ul class="dropdown2">
+		       						<li><a href="haircut.html">Подстригване</a></li>
+		       						<li><a href="hairColoring.html">Боядисване</a></li>
+		       						<li><a href="hairstyles.html">Официални прически</a></li>
+		       					</ul>
+		       				</li>
+						</ul>
+					</li>
+					<li class="menu"><a href="portfolio.html">Портфолио</a></li>
+					<li class="menu"><a href="vouchers.html">Ваучери</a></li>
+					<li class="menu"><a href="contacts.html">Контакти</a></li>
+					<li>
+						<ul>
+							<li class="menu"><i><a href="logIn.html" class="fa-solid fa-right-from-bracket">Вход</a></i></li>
+							<li class="menu"><i><a href="https://www.facebook.com/" class="fab fa-facebook"></a></i></li>
+							<li class="menu"><i><a href="https://www.instagram.com/" class="fab fa-instagram"></a></i></li>
+							<li class="menu"><i><a href="https://twitter.com/" class="fab fa-twitter"></a></i></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+<main>
+	<h4 class="title1">Контакти</h4>
+	<div class="map_comment">
+
+		<div id="contact-section">
+		   <div class="contact-form">
+
+		     <aside class="contacts">
+		       <a href="https://goo.gl/maps/gJ7qdJm5bP7HWPqR8"><i class="fa fa-map-marker"></i></a><span class="form-info"> бул. „6-ти Септември“ Център, Пловдив</span><br>
+		       <i class="fa fa-phone" > </i><span class="form-info"> +359878888888</span><br>
+		       <i class="fa fa-envelope"></i><span class="form-info"> Style_BeautySalon@gmail.com</span>
+		     </aside>
+		     
+			   <aside class="comments">        
+			   	<p>Изпратете ни коментар ТУК <i class="fa fa-chevron-down"></i></p>
+			     <form action="#" method="POST">
+
+			       <input type="text" placeholder="Въведете име" required>
+			       <input type="text" placeholder="Въведете фамилия" required><br>
+			       <input type="email" placeholder="Въведете имейл" required><br>
+			       <textarea name="message" placeholder="Напишете коментар" rows="5" required></textarea><br>
+			       <button class="submit">Send Message</button>
+			     </form> 
+			   </aside>  
+			   
+		   </div>
+		</div>
+
+		<article class="map">
+			<h4 class="title1">Ще ни откриете ТУК<i class="fa fa-chevron-down"></i></h4>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2957.9176503756375!2d24.754873!3d42.152049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd198d911fe79%3A0x97c69affdbdf9bd5!2zU2Fsb25TdXppIC0g0YTRgNC40LfRjNC-0YDRgdC60Lgg0Lgg0LrQvtC30LzQtdGC0LjRh9C10L0g0YHQsNC70L7QvQ!5e0!3m2!1sbg!2sbg!4v1652990611823!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>			
+		</article>
+
+	</div>
+	
+</main>
+
+
+<footer>
+<div class="socialMedia">
+	    <ul>
+			<li><i><a href="https://www.facebook.com/" class="fab fa-facebook"></a></i></li>
+			<li><i><a href="https://www.instagram.com/" class="fab fa-instagram"></a></i></li>
+			<li><i><a href="https://twitter.com/" class="fab fa-twitter"></a></i></li>
+		</ul>
+</div>
+		<hr>
+	<div class="general-terms">
+	   <p>© 2022 Beauty Studio Bety  / All Rights Reserved</p>
+    </div>
+
+</footer>
+
+
+<script>
+	$('.dropbtn').click(function(){
+		$('.dropdown').toggleClass('display');
+		$('.dropdown2').removeClass('display');
+	})
+
+	$('.dropbtn2').click(function(){
+		$('.dropdown2').toggleClass('display');
+	})
+
+	$('.fa-bars').click(function(){
+		$(`.menu-content`).toggle();
+	})
+</script>
+
+
+</body>
+</html>

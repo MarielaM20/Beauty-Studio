@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BeautySalon</title>
+
+	<script src="https://kit.fontawesome.com/c345dd1c65.js" crossorigin="anonymous"></script>
+	<script src="jquery-3.6.0.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+
+	<header>
+
+		<div class="menu-header">
+			<i class="fa fa-bars"></i>
+		</div>
+
+		<div class="menu-content">
+
+			<nav>
+				<ul>
+					<li class="menu-img"><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>
+					<li class="menu"><a href="#" class="dropbtn">Услуги <i class="fa fa-chevron-down"></i></a>
+						<ul class="dropdown">
+							<li><a href="manicure.html">Маникюр</a></li>
+							<li><a href="makeup.html">Грим</a></li>
+							<li><a href="#" class="dropbtn2">Фризьорство <i class="fa fa-chevron-right right"></i><i
+										class="fa fa-chevron-down down"></i></a>
+								<ul class="dropdown2">
+									<li><a href="haircut.html">Подстригване</a></li>
+									<li><a href="hairColoring.html">Боядисване</a></li>
+									<li><a href="hairstyles.html">Официални прически</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="menu"><a href="portfolio.html">Портфолио</a></li>
+					<li class="menu"><a href="vouchers.html">Ваучери</a></li>
+					<li class="menu"><a href="contacts.html">Контакти</a></li>
+					<li>
+						<ul>
+							<li class="menu"><i><a href="logIn.html" class="fa-solid fa-right-from-bracket">Вход</a></i>
+							</li>
+
+							<li class="menu"><i><a href="https://www.facebook.com/" class="fab fa-facebook"></a></i>
+							</li>
+							<li class="menu"><i><a href="https://www.instagram.com/" class="fab fa-instagram"></a></i>
+							</li>
+							<li class="menu"><i><a href="https://twitter.com/" class="fab fa-twitter"></a></i></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	<main>
+
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="images/salon/salon1.jpg" alt="salon image">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="images/salon/salon2.png" alt="salon image">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="images/salon/salon3.png" alt="salon image">
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+
+			<br>
+
+			<div class="dots">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+
+		</div>
+
+
+		<div class="main-header">
+			<div class="about">За салона</div>
+			<div class="textAbout">
+				<p><strong>Салон за красота „Style“</strong> предлага на своите клиенти традиция, съчетана с
+					иновативност, стил и класа. При нас ще получите най-добрите услуги в сферата на фризьорството, грима
+					и маникюра. За вашия перфектен външен вид и самочувствие ще се погрижат висококвалифицирани
+					професионалисти, които прилагат в работата си най-новите модни тенденции.
+				</p>
+			</div>
+
+			<div id="container">
+				<button class="button-52" onclick="window.location.href='https://www.facebook.com/';">Последвайте ни във
+					Facebook</button>
+			</div>
+
+		</div>
+
+		<section class="working-time">
+			<h4 class="workingTimeTitle">Работно време</h4>
+			<div class="time">
+				<div class="clock"><i class="fas fa-clock"></i></div>
+				<strong>Понеделник - Събота</strong>
+				<br>
+				<p>10:00 - 19:00</p>
+			</div>
+
+			<div class="time">
+				<strong>Неделя</strong>
+				<br>
+				<p class="only">Само с предварителна уговорка</p>
+			</div>
+		</section>
+
+		<hr>
+
+		<div class="video">
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/xsnCYCEbdr4">
+				
+			</iframe>
+		</div>
+
+		<hr>
+
+		<div class="map">
+			<div class="address-info ">
+				<span>Салон за красота „Style“ се намира в центъра на гр. Пловдив на бул. „6-ти Септември“ 193а.</span>
+			</div>
+
+			<article>
+				<h4 class="workingTimeTitle">Ще ни откриете ТУК<i class="fa fa-chevron-down"></i></h4>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2957.9176503756375!2d24.754873!3d42.152049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd198d911fe79%3A0x97c69affdbdf9bd5!2zU2Fsb25TdXppIC0g0YTRgNC40LfRjNC-0YDRgdC60Lgg0Lgg0LrQvtC30LzQtdGC0LjRh9C10L0g0YHQsNC70L7QvQ!5e0!3m2!1sbg!2sbg!4v1652990611823!5m2!1sbg!2sbg"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</article>
+		</div>
+
+	</main>
+
+
+	<footer>
+		<div class="socialMedia">
+			<ul>
+				<li><i><a href="https://www.facebook.com/" class="fab fa-facebook"></a></i></li>
+				<li><i><a href="https://www.instagram.com/" class="fab fa-instagram"></a></i></li>
+				<li><i><a href="https://twitter.com/" class="fab fa-twitter"></a></i></li>
+			</ul>
+
+			<hr>
+			<p>© 2022 Beauty Studio Bety / All Rights Reserved</p>
+		</div>
+	</footer>
+
+
+
+	<script>
+		$('.dropbtn').click(function () {
+			$('.dropdown').toggleClass('display');
+			$('.dropdown2').removeClass('display');
+		})
+
+		$('.dropbtn2').click(function () {
+			$('.dropdown2').toggleClass('display');
+		})
+
+		$('.fa-bars').click(function () {
+			$(`.menu-content`).toggle();
+		})
+	</script>
+
+
+
+
+
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+
+
+</body>
+
+</html>
